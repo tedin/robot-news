@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" />
+<link rel="stylesheet" href="stil.css" />
+<meta charset="utf-16">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto" rel="stylesheet"><link rel="icon" href="6-partial-moons-32-148897.png" sizes="32x32">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+<title>Registracija</title>
+
+
+<script>
+function validateForm() {
+    var x = document.forms["mojaForma"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+</head>
+
+<body>
+
+<div class="omotac">
+
+  <header>
+    <div class='zaglavlje' >
+      <a href='index.html'><img src='robot-02.jpg'/></a>ROBOT NEWS
+      <a href='index.html'><img class='ikona' src='bih.png'/></a>
+      <a href='indexENG.html'><img class='ikona' src='BritishFlag2.png'/></a>
+      <div class='meni'><ul><li><a href='index.html'><div class="kvadrat" id="pocetna">
+
+      </div>Pocetna</a></li>
+      <li><a href='novosti.html'><div class="kvadrat" id="novosti">
+
+      </div> Novosti</a></li>
+      <li><a href='recenzije.html'><div class="kvadrat" id="recenzije">
+
+      </div>Recenzije</a></li>
+      <li><a href='gaming.html'><div class="kvadrat" id="gaming">
+
+      </div>Gaming</a></li>
+      <li><a href='hardware.html'><div class="kvadrat" id="hardware">
+
+      </div>Hardware</a></li>
+      <li><a href='software.html'><div class="kvadrat" id="software">
+
+      </div>Software</a></li>
+      <li><a href ='#forum'><div class="kvadrat" id="forum">
+        
+      </div>Forum</a></li>
+      <a href='http://www.facebook.com' target='blank'><img class ='ikona' src='fb.png'/></a>
+      <a href='http://www.twitter.com' target='_blank'><img class ='ikona' src='twitter.png'/></a>
+      <a href='http://www.youtube.com' target='_blank'><img class ='ikona' src='yt.png'/></a>
+      <input id='pretraga' type='text' placeholder='Pretrazi' style='height:30px; border:thin; border-radius:10px;'/>
+      <a href='registracija.html' class='button'>Registracija</a>
+      </ul></div></div>
+  </header>
+    <div class="registracija">
+
+    <h1>Registracija</h1>
+
+  	<form name="mojaForma" onsubmit="return validateForm();">
+      	<hr>
+
+  		<input type="email" name="email" placeholder="Email" required/>
+		<input type="text" name="ime" placeholder="Ime" required/>
+  		<input type="text" name="prezime" placeholder="Prezime" required/>
+  		<br/>
+		<input type="date" name="datum" style="margin-left:45px; margin-top:10px; margin-bottom:10px; text-align:center; padding-left:40px;">
+
+<div class="gender">
+    		<input type="radio" value="None" id="musko" name="gender" checked/>
+    		<label for="musko" class="radio" >Musko</label>
+    		<input type="radio" value="None" id="zensko" name="gender" />
+    		<label for="zensko" class="radio">Zensko</label>
+   		</div>
+
+   		<p>Klikom na dugme Register, prijavljujete se na nas newsletter.</p>
+
+   		<!--<a href="#" class="button">Register</a>-->
+   		<input type="submit" value="Register"/>
+  	</form>
+
+    </div>
+
+    <div class= "podnozje" >
+      <a href='https://www.facebook.com/Terzzaa' target='_blank'><img class='autori' src='edin.jpg'/></a>
+      Copyright &copy; ROBOT NEWS by Edin Terzic & Damir Kadic
+      <a href='https://www.facebook.com/damir.kadic.3' target='_blank'><img class='autori' src='damir.jpg'/></a>
+
+    </div>
+<div>
+
+</body>
+</html>

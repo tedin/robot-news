@@ -1,0 +1,61 @@
+p.clanak
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+}
+
+h2.centriraj
+{
+  text-align: center;
+  font-size: 36px;
+}
+img.slika
+{
+  float: left;
+  display: block;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+img.slika_paragraf
+{
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 600px;
+}
+
+#gaming
+{
+  background-color: #33cc33;
+
+}
+
+#novosti
+{
+  background-color: #0066ff;
+}
+
+#recenzije
+{
+  background-color: #ff0066;
+
+}
+#hardware
+{
+  background-color: #ff0000;
+
+}
+
+#software
+{
+  background-color: #9900cc;
+
+}
+
+h4
+{
+  font-size: 20px;
+  text-align: justify;
+
+}

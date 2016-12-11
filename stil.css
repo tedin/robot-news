@@ -1,0 +1,323 @@
+@font-face {
+    font-family: DisposableDroidBB_bldital;
+    src: url(DisposableDroidBB_bldital.ttf);
+    font-weight:400;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e6e6e6;
+    margin:0;
+
+
+}
+
+
+.zaglavlje{
+  	background-color: #333;
+  	height:205px;
+	  color:white;
+	  font-size:64px;
+    text-align:center;
+	  clear:both;
+	  border:solid thick #e6e6e6;
+	  font-family: "DisposableDroidBB_bldital";
+}
+
+
+.zaglavlje img{
+  	float:left;
+  	height:130px;
+  	width:150px;
+	padding-bottom:5px;
+}
+
+
+.meni{
+	clear:both;
+	padding-right:20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.meni a{
+	font-size: 20px;
+	float:right;
+	padding-right:20px;
+	text-decoration:none;
+}
+
+img.ikona {
+	height:35px;
+	width:35px;
+	float:right;
+	margin-top:7px;
+	padding-right:5px;
+}
+
+ul {
+    list-style-type: none;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	clear:both;
+}
+li {
+	float:left;
+	font-size:25px;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+	border: solid #FFF thin;
+	border-radius: 10px;
+}
+
+#pretraga {
+  	float: right;
+  	margin-top: 10px;
+	padding-left: 10px;
+	margin-right:10px;
+
+}
+
+.pocetna
+{
+
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  margin-top: 0%;
+}
+
+
+.registracija {
+  	margin: 20px auto;
+  	width: 343px;
+  	height: 464px;
+  	border-radius: 8px;
+  	background-color: #ebebeb;
+  	box-shadow: 1px 2px 10px;
+  	border: solid 1px #cbc9c9;
+}
+
+.registracija p {
+  	font-size: 12px;
+  	width: 150px;
+  	display: inline-block;
+  	margin-left: 18px;
+}
+
+.registracija h1 {
+  	font-size: 32px;
+  	font-weight: 300;
+  	color: #4c4c4c;
+  	text-align: center;
+  	padding-top: 10px;
+  	margin-bottom: 10px;
+}
+
+.registracija form{
+  	margin: 0 30px;
+}
+
+.registracija input[type=radio] {
+  	visibility: visible;
+	margin-left:40px;
+}
+
+.registracija label.radio {
+	cursor: pointer;
+  	margin-bottom: 15px;
+	display: inline-block;
+}
+
+hr {
+  	color: #a9a9a9;
+  	opacity: 0.3;
+}
+
+.registracija input[type=text],input[type=password]{
+  	width: 200px;
+  	height: 39px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: solid 1px #cbc9c9;
+  	margin-left: 30px;
+  	margin-top: 13px;
+  	padding-left: 10px;
+}
+
+.registracija input[type=email]{
+  	width: 200px;
+  	height: 39px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: solid 1px #cbc9c9;
+  	margin-left: 30px;
+  	margin-top: 13px;
+  	padding-left: 10px;
+}
+
+.registracija input[type=password]{
+  	margin-bottom: 25px;
+}
+
+
+input[type=submit]{
+  	font-size: 14px;
+  	font-weight: 600;
+  	color: white;
+  	padding: 10px 75px 25px 20px;
+
+  	margin: 10px 8px 20px 0px;
+  	display: inline-block;
+  	float: right;
+  	text-decoration: none;
+  	width: 63px; height: 27px;
+  	border-radius: 5px;
+  	background-color: #3a57af;
+  	top: 0px;
+}
+
+input[type=submit]:hover
+{
+  top: 3px;
+  background-color:#2e458b;
+}
+
+a.button {
+  	font-size: 14px;
+  	font-weight: 600;
+  	color: white;
+  	padding: 10px 30px 0px 20px;
+
+  	margin: 10px 8px 20px 0px;
+  	display: inline-block;
+  	float: right;
+  	text-decoration: none;
+  	width: 63px; height: 27px;
+  	border-radius: 5px;
+  	background-color: #3a57af;
+  	top: 0px;
+}
+
+a.button:hover {
+  	top: 3px;
+  	background-color:#2e458b;
+}
+
+.podnozje{
+    text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color:#333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: white;
+
+}
+
+img.autori{
+	border-radius:45px;
+	border:medium;
+	border-color:red;
+	width:90px;
+	height:100px;
+
+}
+
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    display:inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+a.kartica:link
+{
+  text-decoration: none;
+
+}
+a.kartica:hover
+{
+  text-decoration: none;
+}
+a.kartica:visited
+{
+  text-decoration: none;
+}
+
+.kvadrat
+{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+#pocetna
+{
+  background-color: black;
+}
+
+#gaming
+{
+  background-color: #33cc33;
+
+}
+
+#novosti
+{
+  background-color: #0066ff;
+}
+
+#recenzije
+{
+  background-color: #ff0066;
+
+}
+#hardware
+{
+  background-color: #ff0000;
+
+}
+
+#software
+{
+  background-color: #9900cc;
+
+}
+
+#forum
+{
+  background-color: white;
+
+}
